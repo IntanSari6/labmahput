@@ -8,6 +8,8 @@
               <h3>SMKS MAHAPUTRA CERDAS UTAMA
               </h3>
               <p class="pb-3"><em>Jl. Katapang-Andir Km. 4 Kp. Pasantren Desa Sukamukti Kec. Katapang, Kab. Bandung</em></p>
+              <p class="pb-3"><em>smkmahaputracerdasutama@gmail.com</em></p>
+              <p class="pb-3"><em>0895-6304-68373</em></p>
             </div>
           </div>
 
