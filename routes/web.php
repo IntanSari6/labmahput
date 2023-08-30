@@ -1,7 +1,7 @@
 <?php
 
 use App\Http\Controllers\Controller;
-// use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\InventarisController;
 
 /*
@@ -28,3 +28,4 @@ Route::get('/dashboard', function() {
 });
 
 Route::get('/Inventaris', [InventarisController::class, 'index']);
+

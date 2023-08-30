@@ -15,6 +15,10 @@ class InventarisController extends Controller
     {
         return view('Inventaris.index');
     }
+    public function lab_2()
+    {
+        return view('Inventaris.lab_2');
+    }
 
     /**
      * Show the form for creating a new resource.
