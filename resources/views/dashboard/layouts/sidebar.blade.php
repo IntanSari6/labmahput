@@ -9,11 +9,11 @@
       <ul class="sidebar-menu">
         <li class="menu-header">Dashboard</li>
         <li class="dropdown active">
-          <a href="dashboard.index" ><i class="fas fa-fire"></i><span>Dashboard</span></a>
+          <a class="nav-link {{ Request::is('dashboard') ? 'active' : '' }}" href="dashboard.index" ><i class="fas fa-fire"></i><span>Dashboard</span></a>
         </li>
         <li class="menu-header">Starter</li>
         <li class="dropdown">
-          <a href="/inventaris_lab/index" ><i class="fas fa-columns"></i> <span>Inventaris Lab</span></a>
+          <a class="{{ Request::is('Inventaris') ? 'active' : '' }}" href="/Inventaris" ><i class="fas fa-columns"></i> <span>Inventaris Lab</span></a>
         </li>
         <li class="dropdown">
         <a href="/inventaris_lab/index" ><i class="fas fa-columns"></i> <span>Kelola Inventaris Lab</span></a>

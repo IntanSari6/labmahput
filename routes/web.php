@@ -1,6 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Controller;
+// use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\InventarisController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,14 +15,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/a', function () {
     return view('main');
 });
 
-Route::get('/a', function () {
+Route::get('/', function () {
     return view('landing_page');
 });
 
 Route::get('/dashboard', function() {
     return view('dashboard.index');
 });
+
+Route::get('/Inventaris', [InventarisController::class, 'index']);
