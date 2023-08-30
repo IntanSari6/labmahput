@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Controller;
 // use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\InventarisController;
 
 /*
@@ -23,8 +24,12 @@ Route::get('/', function () {
     return view('landing_page');
 });
 
-Route::get('/dashboard', function() {
-    return view('dashboard.index');
-});
+// Route::get('/dashboard', function() {
+//     return view('dashboard');
+// });
+
+Route::get('/dashboard', [DashboardController::class, 'index']);
 
 Route::get('/Inventaris', [InventarisController::class, 'index']);
+
+Route::get('beranda', [BerandaController::class, 'index']);
