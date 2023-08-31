@@ -4,7 +4,7 @@
         <a href="index.html">LabKom</a>
       </div>
       <div class="sidebar-brand sidebar-brand-sm">
-        <a href="index.html">St</a>
+        <a href="index.html">LK</a>
       </div>
       <ul class="sidebar-menu">
         <li class="menu-header">Dashboard</li>
@@ -16,7 +16,7 @@
           <a class="nav-link {{ Request::is('Inventaris') ? 'active' : '' }}" href="/Inventaris" ><i class="fas fa-columns"></i> <span>Inventaris Lab</span></a>
         </li>
         <li class="dropdown">
-        <a href="/inventaris_lab/index" ><i class="fas fa-columns"></i> <span>Kelola Inventaris Lab</span></a>
+        <a href="/manage_lab_inventory" ><i class="fas fa-columns"></i> <span>Kelola Inventaris Lab</span></a>
         </li>
         <li class="dropdown">
           <a href="Request_Peminjaman" ><i  class="far fa-file-alt"></i> <span>Request Peminjaman</span></a>

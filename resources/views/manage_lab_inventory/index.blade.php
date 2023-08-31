@@ -2,7 +2,7 @@
 
 @section('container')
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mt-5 border-bottom">
-    <h3>Inventaris Lab</h3>
+    <h3>Manajemen Lab</h3>
 </div>
 
 <br>
@@ -36,10 +36,24 @@
             {{-- <h4>Online Users</h4> --}}
           </div>
           <div class="card-body">
-            LAB 2
+            <a href="lab_2">LAB 2</a>
           </div>
         </div>
       </div>
-    </div>                  
+    </div>                
   </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <div class="text-center buttons pt-3 pb-2 mt-9">
+    <a href="#" class="btn btn-icon btn-primary">Tambah</a>
+    <a href="#" class="btn btn-icon btn-danger">Hapus</a>
+  </div>  
+
 @endsection
