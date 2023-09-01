@@ -1,12 +1,8 @@
 <?php
 
 use App\Http\Controllers\Controller;
-<<<<<<< HEAD
 // use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
-=======
-use Illuminate\Support\Facades\Route;
->>>>>>> c9b9ba85a860eb5d0d1aee545e939585ac44ff83
 use App\Http\Controllers\InventarisController;
 use App\Http\Controllers\ManageLabInventoryController;
 
@@ -36,11 +32,9 @@ Route::get('/', function () {
 Route::get('/dashboard', [DashboardController::class, 'index']);
 
 Route::get('/Inventaris', [InventarisController::class, 'index']);
-<<<<<<< HEAD
 
 Route::get('beranda', [BerandaController::class, 'index']);
-=======
+
 Route::get('/manage_lab_inventory', [ManageLabInventoryController::class, 'index']);
 
 
->>>>>>> c9b9ba85a860eb5d0d1aee545e939585ac44ff83
