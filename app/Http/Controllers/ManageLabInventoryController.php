@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class InventarisController extends Controller
+class ManageLabInventoryController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,12 +13,9 @@ class InventarisController extends Controller
      */
     public function index()
     {
-        return view('Inventaris.index');
+        return view('manage_lab_inventory.index');
     }
-    public function lab_2()
-    {
-        return view('Inventaris.lab_2');
-    }
+    
 
     /**
      * Show the form for creating a new resource.
@@ -86,3 +83,4 @@ class InventarisController extends Controller
         //
     }
 }
+
