@@ -44,7 +44,7 @@
   <!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <div class="container mt-4">
+  <div>
     @yield('container')
   </div>
 

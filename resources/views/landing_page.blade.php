@@ -3,14 +3,13 @@
 @section('container')
 
 <section id="hero">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row justify-content-between">
         <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
           <div data-aos="zoom-out">
             <h1>Selamat Datang Di Website Laboratorium SMKS Mahaputra Cerdas Utama</h1>
             <h2>Welcome to the Mahaputra Smart Utama SMKS Laboratory Website</h2>
-            <div class="text-center text-lg-start">
-            
+            <div class="text-center text-lg-start"> 
             </div>
           </div>
         </div>
@@ -22,6 +21,8 @@
 
     <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
       <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
       <g class="wave1">
         <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
       </g>
@@ -32,7 +33,6 @@
         <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
       </g>
     </svg>
-
   </section>
 
   <main id="main">
@@ -42,8 +42,7 @@
       <div class="container-fluid">
 
         <div class="row">
-          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right">
-            <a href="https://www.youtube.com/watch?v=StpBR2W8G5A" class="glightbox play-btn mb-4"></a>
+          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center margin-right: 0px margin-left:100px align-items-stretch" data-aos="fade-right">
           </div>
 
           <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
@@ -51,23 +50,16 @@
             <p>SMKS Mahaputra Cerdas Utama</p>
 
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
-              <div class="icon"><i class="bx bx-fingerprint"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                <p>1. Semua siswa aktif berhak atas pemanfaatan komputer</p>
+                <p>2. Siswa berhak menggunakan komputer pada saat jam sekolah</p>
+                <p>3. Setiap siswa hanya boleh menggunakan satu komputer dalam satu waktu</p>
+                <p>4. Siswa yang tidak mematuhi peraturan/ketentuan maka akan mendapat sanksi</p>
+                <p>5. Siswa dilarang menghapus, menginstall software atau memodifikasi program komputer di lab</p>
+                <p>6. Siswa dilarang merusak, memindahkan, atau mengambil hardware, software atau fasilitas lab tanpa seijin petugas lab</p>
+                <p>7. Setiap siswa harus mematikan komputer dan CPU maupun layar monitor setiap kali selesai menggunakan komputer</p>
+                <p>8. Siswa yang merusak alat alat penunjang praktikum diwajibkan untuk menggantinya</p>
+                <p>9. Setiap siswa harus menjaga kebersihan dan kerapihan lab</p>
             </div>
-
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-              <div class="icon"><i class="bx bx-gift"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-            </div>
-
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
-              <div class="icon"><i class="bx bx-atom"></i></div>
-              <h4 class="title"><a href="">Dine Pad</a></h4>
-              <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
-            </div>
-
           </div>
         </div>
 
