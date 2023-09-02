@@ -5,6 +5,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\InventarisController;
 use App\Http\Controllers\ManageLabInventoryController;
+use App\Http\Controllers\ManageLoansController;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,5 +37,7 @@ Route::get('/Inventaris', [InventarisController::class, 'index']);
 Route::get('beranda', [BerandaController::class, 'index']);
 
 Route::get('/manage_lab_inventory', [ManageLabInventoryController::class, 'index']);
+
+Route::get('/manage_loans', [ManageLoansController::class, 'index']);
 
 
