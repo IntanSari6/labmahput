@@ -84,4 +84,7 @@
             </div>
         </div>
     </div>
+    <div class="text-center buttons pt-3 pb-2 mt-9">
+        <a href="/request" class="btn btn-icon btn-primary">Next</a>
+    </div>
 @endsection

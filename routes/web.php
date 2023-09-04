@@ -6,6 +6,9 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\InventarisController;
 use App\Http\Controllers\ManageLabInventoryController;
 use App\Http\Controllers\ManageLoansController;
+use App\Http\Controllers\RequestLoansController;
+use App\Http\Controllers\ManageScheduleController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -40,4 +43,6 @@ Route::get('/manage_lab_inventory', [ManageLabInventoryController::class, 'index
 
 Route::get('/manage_loans', [ManageLoansController::class, 'index']);
 
+Route::get('/request_loans', [RequestLoansController::class, 'index']);
 
+Route::get('/manage_schedule', [ManageScheduleController::class, 'index']);
