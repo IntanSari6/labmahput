@@ -11,16 +11,9 @@ class RequestLoansController extends Controller
         return view('request_loans.index');
     }
 
-    public function request()
-    {
-        return view(request_peminjaman . index);
-    }
-
-
-
-    // public function lab_2()
+    // public function request()
     // {
-    //     return view('Inventaris.lab_2');
+    //     return view('request.index');
     // }
 
     public function create()

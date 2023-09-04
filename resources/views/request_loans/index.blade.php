@@ -19,9 +19,9 @@
                             <th>Nama</th>
                             <th>Kelas</th>
                             <th>Mata Pelajaran</th>
-                            <th>Tanggal</th>
-                            <th>Durasi</th>
                             <th>Lab</th>
+                            <th>Mulai</th>
+                            <th>Selesai</th>
                         </tr>
                         <tr>
                             <td>01</td>
@@ -29,7 +29,7 @@
                             <td>Inul</td>
                             <td>12 RPL</td>
                             <td>PWPB</td>
-                            <td>21-07-2023</td>
+                            <td>1</td>
                             <td>
                                 <div class="badge badge-success">Active</div>
                             </td>
@@ -42,7 +42,7 @@
                             <td>Daratista</td>
                             <td>12 RPL</td>
                             <td>PWPB</td>
-                            <td>30-07-2023</td>
+                            <td>2</td>
                             <td>
                                 <div class="badge badge-success">Active</div>
                             </td>
@@ -55,7 +55,7 @@
                             <td>Inul Daratista</td>
                             <td>12 RPL</td>
                             <td>PWPB</td>
-                            <td>01-08-2023</td>
+                            <td>1</td>
                             <td>
                                 <div class="badge badge-success">Active</div>
                             </td>
